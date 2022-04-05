@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato',
+  sans-serif;
+}
+.head{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10%;
+}
+.head h1{
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.head p{
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+i{
+  cursor: pointer;
+  font-size: 40px;
+  color: #fff;
+}
+.main{
+  display: flex;
+  height: 400px;
+  width: 100%;
+  padding: 15px 10%;
+  justify-content: space-between;
+}
+.main p{
+  color: #fff;
+  font-size: 30px;
+}
+.main h1{
+  font-family: 'Montserrat',
+  sans-serif;
+  color: #fff;
+  font-size: 80px;
+  margin-right: 450px;
+}
+.main span{
+  color: rgb(174, 172, 172);
+}
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.feet{
+  margin-top: 19px;
+  display: flex;
+  height: auto;
+  width: 100%;
+  padding: 15px 10%;
+  justify-content: space-between;
+}
+.feet p{
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  font-size: 30px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  text-align: center;
+}
+.feet h1 {
+  color: rgb(228, 228, 228);
+  font-size: 20px;
+  margin-right: 812px;
+}
+.botao{
+  padding-left: 472px;
+padding-top: 35px;
+width: 100%;
+height: auto;
+}
+.btn{
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 19px;
+  height: 45px;
+  width: 160px;
+  border: 1px solid #fff;
+  border-radius: 52px;
+  background-color: #fff;
+}
+.rodape{padding-left: 455px;
+width: 100%;
+height: auto;
+margin-top: 136px;
+}
+.rodape a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 30px;
+}
+
+
+
+
+
+@media (min-aspect-ratio: 16/9) {
+  .video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video {
+    width: auto;
+    height: 100%;
+  }
+}
